@@ -1,4 +1,4 @@
-package com.simplaex.pepoffsets
+package com.github.ywilkof.kafkadatadogreporter
 
 class DatadogOffsetReporterArgumentParser(args: String) {
 

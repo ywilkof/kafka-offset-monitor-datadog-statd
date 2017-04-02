@@ -1,4 +1,4 @@
-package com.simplaex.pepoffsets
+package com.github.ywilkof.kafkadatadogreporter
 
 final case class KafkaMetric(metricName: String, group: String, topic: String, partition: Int) {
 
