@@ -30,15 +30,6 @@ parallelExecution in Test := false
 
 updateOptions := updateOptions.value.withCachedResolution(true)
 
-publishMavenStyle := true
-
-publishTo := {
-  if (isSnapshot.value) {
-    Some("Simplaex Snapshots" at "s3://simplaex-dependencies.s3.amazonaws.com/snapshots")
-  } else {
-    Some("Simplaex Releases" at "s3://simplaex-dependencies.s3.amazonaws.com/releases")
-  }
-}
 
 
     
