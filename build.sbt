@@ -1,5 +1,5 @@
 
-name := "pepoffsets"
+name := "datadog-reporter"
 
 version := "1.0"
 
